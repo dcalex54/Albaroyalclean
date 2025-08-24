@@ -77,6 +77,18 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+.hero-content img {
+  width: auto;         /* kitölti a div szélességét */
+  height: max 200px; 
+	background-size: cover;
+	/* arányosan méretezi a magasságot */
+  max-width: 500px;    /* maximum szélesség, ha túl nagy lenne */
+  border-radius: 10px; /* lekerekített sarkok */
+  display: block;      /* margin beállításához */
+  margin: 10px auto;
+  object-fit: contain;/* középre igazítás */
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -146,6 +158,15 @@ main h2::after {
     text-align: left;
     width: 280px;
     transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card img {
+  width: 100%;         /* kitölti a div szélességét */
+  height: auto;        /* arányosan méretezi a magasságot */
+  max-width: 300px;    /* maximum szélesség, ha túl nagy lenne */
+  border-radius: 10px; /* lekerekített sarkok */
+  display: block;      /* margin beállításához */
+  margin: 10px auto;   /* középre igazítás */
 }
 
 .service-card:hover {
